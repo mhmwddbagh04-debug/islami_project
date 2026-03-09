@@ -1,0 +1,35 @@
+name: islami
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_native_splash:
+  animate_do: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/Suras/
+
+  fonts:
+    - family: janna
+      fonts:
+        - asset: assets/fonts/Janna-LT-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/JannaLT-Regular.ttf
+          weight: 500
