@@ -87,7 +87,6 @@ class _SuraDetailsState extends State<SuraDetails> {
       ),
     );
   }
-
   void getSuraDetails() async {
     try {
       String suraDetailsText = await rootBundle.loadString(
