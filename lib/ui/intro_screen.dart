@@ -18,7 +18,7 @@ class _IntroScreenState extends State<IntroScreen> {
     super.initState();
 
     Future.delayed(Duration(seconds: 3), () {
-      Navigator.pushReplacementNamed(context, HomeScreen.routeName);
+      Navigator.pushReplacementNamed(context, OnboardScreen.routeName);
     });
   }
 
