@@ -5,14 +5,16 @@ import 'package:islami/ui/tabs/home_tab/sura_details.dart';
 import '../../../../themes/text_styles.dart';
 
 class SuraItem extends StatelessWidget {
-  SuraItem({required this.sura, super.key});
+  SuraItem({required this.sura,required this.onItemTap, super.key});
 
   Sura sura;
+  Function(Sura) onItemTap;
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
+        onItemTap(sura);
      Navigator.pushNamed(context, SuraDetails.routeName,arguments: sura);
       },
       child: Row(

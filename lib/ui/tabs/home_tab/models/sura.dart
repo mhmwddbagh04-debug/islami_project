@@ -10,6 +10,11 @@ class Sura {
     required this.nameEn,
     required this.versesNumber,
   });
+  @override
+  String toString() {
+    // TODO: implement toString
+    return 'Sura $id , nameEn $nameEn , nameAr $nameAr';
+  }
 }
 
 List<String> arabicAuranSuras = [

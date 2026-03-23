@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:islami/ui/home_view.dart';
+import '../onboard/onboard_screen.dart';
 
 class IntroScreen extends StatefulWidget {
   const IntroScreen({super.key});
